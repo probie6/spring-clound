@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.newbie.spring-clound-api.main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-clound-server/src/main/resources/lib/com.newbie.spring-clound-api.main.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
