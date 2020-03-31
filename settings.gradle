@@ -4,4 +4,5 @@ include 'spring-clound-eureka'
 include 'spring-clound-server'
 include 'spring-clound-api'
 include 'spring-clound-zuul'
+include 'spring-clound-basic'
 

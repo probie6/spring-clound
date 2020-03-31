@@ -31,3 +31,5 @@ Espring-clound-api/src/main/java/com/probie/resetful/DemoFeignApi.java,e\8\e876
 Lspring-clound-server/src/main/java/com/probie/controller/DemoController.java,1\c\1c859168d4c8e2e772c1a447c653edb9503517de
 t
 Dspring-clound-server/src/main/java/com/probie/ServerApplication.java,3\8\38ecd38074257691df0a3a7e4a0e1083a7cf1124
+_
+/spring-clound-zuul/src/test/java/ImageTest.java,b\a\baa8aae58db24405ffdd801639c8092cc92dcd38

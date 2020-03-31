@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/spring-clound-api" />
+            <option value="$PROJECT_DIR$/spring-clound-basic" />
             <option value="$PROJECT_DIR$/spring-clound-client" />
             <option value="$PROJECT_DIR$/spring-clound-eureka" />
             <option value="$PROJECT_DIR$/spring-clound-server" />

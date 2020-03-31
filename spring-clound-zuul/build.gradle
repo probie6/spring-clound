@@ -12,5 +12,6 @@ repositories {
 
 dependencies {
   compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-zuul', version: '2.2.2.RELEASE'
+  compile project(":spring-clound-basic")
 
 }
