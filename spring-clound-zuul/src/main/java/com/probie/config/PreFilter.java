@@ -3,8 +3,6 @@ package com.probie.config;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import com.probie.basic.ResponseResult;
-import com.probie.basic.enums.ResponseTypes;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
@@ -34,14 +32,15 @@ public class PreFilter extends ZuulFilter {
 
   @Override
   public Object run() throws ZuulException {
-    // 请求拦截，例如token校验（结合redis）
+    // 请求拦截
     RequestContext requestContext = RequestContext.getCurrentContext();
     HttpServletRequest request = requestContext.getRequest();
     String token = request.getParameter("token");
-    if(StringUtils.isEmpty(token)) {
+    if (StringUtils.isEmpty(token)) {
       // 跳转登录页面
       setUnauthorizedResponse(requestContext, "Authentication failed：token is empty，please login ");
     }
+    // token校验（结合redis）
 
     return null;
   }
