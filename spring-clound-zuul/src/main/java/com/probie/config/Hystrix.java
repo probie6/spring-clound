@@ -10,7 +10,7 @@ import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Histrix implements FallbackProvider {
+public class Hystrix implements FallbackProvider {
 
   @Override
   public String getRoute() {

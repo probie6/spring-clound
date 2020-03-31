@@ -13,9 +13,9 @@ zuul:
       path: /api/remote
       serviceId: SERVICE-SERVER
 
-#此处路由用的serviceId，则使用ribbon.ConnectTimeout配置超时
-#如使用url方式直连 则使用zuul.host.connect-timeout-millis， zuul.host.socket-timeout-millis配置超时
-#ribbon和hystrix取小的那个
+# 此处路由用的serviceId，则使用ribbon.ConnectTimeout配置超时
+# 如使用url方式直连 则使用zuul.host.connect-timeout-millis， zuul.host.socket-timeout-millis配置超时
+# ribbon和hystrix取小的那个
 ribbon:
   ConnectTimeout: 5000
   ReadTimeout: 5000
